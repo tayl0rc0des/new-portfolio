@@ -1,0 +1,202 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: black;
+  margin-top: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  color: white;
+  font-family: Bebas Neue;
+  
+}
+
+.navbar {
+  background-color: rgb(29, 29, 29);
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 60px;
+  width: 100%;
+
+  
+}
+
+.nav-list {
+  list-style-type: none;
+  
+}
+
+.nav-list .list-item {
+  display: inline-block;
+  padding: 20px 10px;
+  font-family: Bebas Neue;
+  font-size: 25px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.navbar a:hover {
+  color: crimson;
+  border-bottom: 1px solid crimson;
+  transition: 1s, smooth;
+  
+}
+
+.logo {
+  width: 90px;
+}
+
+.profile-pic {
+  width: 400px;
+  border-radius: 50%;
+  display: inline-block;
+  
+}
+
+.intro {
+  float: right;
+  text-align: right;
+  padding-top: 90px;
+  font-family: Bebas Neue;
+
+}
+
+.name {
+  font-size: 120px;
+  font-family: Caveat;
+}
+
+.build {
+  font-size: 40px;
+
+}
+
+.job {
+  font-size: 30px;
+}
+
+.location {
+  font-size: 25px;
+}
+
+.work-title {
+  font-size: 60px;
+}
+
+.work-icon {
+  width: 70px;
+  vertical-align: middle;
+}
+
+.work-title {
+  display: inline-block;
+  font-size: 20px;
+  vertical-align: middle;
+}
+
+.connect-icon {
+  width: 70px;
+  vertical-align: middle;
+}
+
+.connect-title {
+  display: inline-block;
+  font-size: 30px;
+  vertical-align: middle;
+}
+
+.linkedin-icon {
+  width: 30px;
+  display: inline-block;
+  background-color: black;
+  text-decoration: none;
+  margin-right: 100px;
+}
+
+.twitter-icon {
+  width: 30px;
+  display: inline-block;
+}
+
+a img {
+  outline: none;
+  text-decoration: none;
+}
+
+
+.work-title {
+  font-size: 35px;
+  text-align: center;
+  vertical-align: middle;
+  width: 100%;
+  
+}
+
+hr.rounded {
+  border-top: 2px solid white;
+  border-radius: 2px;
+}
+
+.html-logo {
+  width: 35px;
+
+}
+
+.css-logo {
+  width: 35px;
+}
+
+.javascript-logo {
+  width: 35px;
+}
+
+.skills {
+  text-align: center;
+  width: 100%;
+  margin-left: 5px;
+}
+
+.cs {
+  text-align: center;
+  font-size: 20px;
+}
+
+.connect {
+  font-size: 35px;
+  text-align: center;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.twitter {
+  width: 35px;
+}
+
+.linkedin {
+  width: 35px;
+}
+
+.github {
+  width: 35px;
+}
+
+.social-media {
+  text-align: center;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+}
